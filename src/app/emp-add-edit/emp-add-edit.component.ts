@@ -55,7 +55,7 @@ export class EmpAddEditComponent implements OnInit {
               this._dialogRef.close(true);
             },
             error: (err: any) => {
-              console.error(err);
+              console.error("The Error is " , err);
             },
           });
       } else {
